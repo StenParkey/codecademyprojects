@@ -1,0 +1,63 @@
+* {
+    color:black;
+    font-family: Helvetica;
+}
+
+/* title section */
+header h1 {
+    background-image: url(pattern.jpeg);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+
+/* h2 styles */
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;  
+}
+
+.container1 h2 {
+    background-color: mediumspringgreen;
+}
+
+.container2 h2 {
+    background-color: lightcoral;
+}
+
+.container3 h2 {
+    background-color: skyblue;
+}
+
+/* main section styles */
+.imagecontainer {
+    text-align: left;
+}
+
+main h3 {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    font-family: Helvetica;
+}
+
+main p {
+    color: black;
+    text-align: left;
+}
+
+.supplyprice {
+    font-weight: bold;
+    color: blue;    
+}
+
+/* Footer */
+
+footer p {
+    font-size: 14px;
+    font-family: monospace;
+    color: whitesmoke;
+    background-color: black;
+
+}
