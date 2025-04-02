@@ -1,0 +1,66 @@
+:root {
+    --ds_dark_purple: #41344D;
+    --ds_light_purple: #8258A0;
+    --ds_brown_purple: #94676A;
+    --ds_dark_blue: #22515B;
+    --ds_black: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-top: 20px;
+    background-color: var(--ds_light_purple);
+}
+
+table th {
+    background-color: var(--ds_dark_purple);
+    color: var(--ds_light_purple);
+}
+
+table .weapon {
+    color: var(--ds_black);
+}
+
+table .type {
+    background-color: whitesmoke;
+    color: var(--ds_dark_blue);
+}
+table .desc {
+    background-color: var(--ds_brown_purple);
+    color: var(--ds_black);
+}
+
+table,
+table tr,
+table td {
+    border: 1px solid var(--ds_black);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
